@@ -1,7 +1,7 @@
 from flask import Flask,render_template,request,redirect,jsonify
 import pandas as pd
 import numpy as np
-from wordcloud import WordCloud, STOPWORDS
+#from wordcloud import WordCloud, STOPWORDS
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 
@@ -19,7 +19,7 @@ indices = pd.Series(df_percent.index)
 urldf=pd.read_csv('urldf.csv')
 df_percent['url']=list(urldf['url'])
 
-from sklearn.feature_extraction.text import CountVectorizer
+#from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfVectorizer
 tfidf = TfidfVectorizer(analyzer='word', ngram_range=(1, 2), min_df=0, stop_words='english')
 tfidf_matrix = tfidf.fit_transform(df_percent['reviews_list'].apply(lambda x: np.str_(x)))

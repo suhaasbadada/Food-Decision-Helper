@@ -1,0 +1,209 @@
+.mediaViewInfo {
+	--web-view-name: Web 1920 – 3;
+	--web-view-id: Web_1920__3;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Web_1920__3;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Web_1920__3 {
+	position: absolute;
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Web 1920 – 3;
+	--web-view-id: Web_1920__3;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-enable-deep-linking: true;
+}
+#Group_2 {
+	position: absolute;
+	width: 1920px;
+	height: 1080.5px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Layer_2 {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Layer_1 {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_1 {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_6 {
+	opacity: 0.64;
+	fill: rgba(0,0,0,1);
+}
+.Rectangle_6 {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+}
+#Line_1 {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 23px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_1 {
+	overflow: visible;
+	position: absolute;
+	width: 23px;
+	height: 1080px;
+	left: 960.5px;
+	top: 0.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Group_3 {
+	position: absolute;
+	width: 625px;
+	height: 319px;
+	left: 325px;
+	top: 394px;
+	overflow: visible;
+}
+#Search_restaurants_based_on_mo {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 607px;
+	white-space: nowrap;
+	text-align: right;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 55px;
+	color: rgba(255,255,255,1);
+}
+#Group_5 {
+	position: absolute;
+	width: 368px;
+	height: 154px;
+	left: 257px;
+	top: 165px;
+	overflow: visible;
+}
+#Rectangle_7 {
+	opacity: 0.44;
+	fill: rgba(68,67,67,1);
+}
+.Rectangle_7 {
+	position: absolute;
+	overflow: visible;
+	width: 368px;
+	height: 154px;
+	left: 0px;
+	top: 0px;
+}
+#MOOD {
+	left: 72px;
+	top: 29px;
+	position: absolute;
+	overflow: visible;
+	width: 225px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 72px;
+	color: rgba(224,131,131,1);
+}
+#Group_4 {
+	position: absolute;
+	width: 625px;
+	height: 319px;
+	left: 971px;
+	top: 394px;
+	overflow: visible;
+}
+#Search_restaurants_based_on_cu {
+	left: 19px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 607px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 55px;
+	color: rgba(255,255,255,1);
+}
+#Group_6 {
+	position: absolute;
+	width: 368px;
+	height: 154px;
+	left: 0px;
+	top: 165px;
+	overflow: visible;
+}
+#Rectangle_8 {
+	opacity: 0.44;
+	fill: rgba(48,43,37,1);
+}
+.Rectangle_8 {
+	position: absolute;
+	overflow: visible;
+	width: 368px;
+	height: 154px;
+	left: 0px;
+	top: 0px;
+}
+#CUISINE {
+	left: 54px;
+	top: 29px;
+	position: absolute;
+	overflow: visible;
+	width: 262px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 72px;
+	color: rgba(133,207,212,1);
+}	

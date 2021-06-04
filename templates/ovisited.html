@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/static/ovisited.css">
+    
+    <title>Output</title>
+</head>
+<body>    
+   
+    <div id="df_edit">
+        {{ rr_html | safe}}
+    </div>
+<!--
+    {% for your_list_element in rr %}
+    <p>{{ your_list_element }} </p>
+    {% endfor %}    
+     <h1> recommendations are:{{fr}}</h1> -->
+
+<a href='/ivisited'>
+        <div class="home_btn"> BACK  </div>
+</a>
+
+<a href='/'>
+    <div class="back_btn"> HOME </div>
+</a>
+
+</body>
+</html>

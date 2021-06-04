@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" type="text/css" href="/static/omood.css">
+
+    <title>Output</title>
+</head>
+<body>   
+    <div id="li_div">
+    <ul id="ol_id">
+    {% for your_list_element in fr %}
+    <li class="edit_list">{{ your_list_element }} </li>
+    {% endfor %}
+    </ul>
+</div>
+
+<a href='/imood'>
+    <div class="home_btn"> BACK  </div>
+</a>
+
+<a href='/'>
+<div class="back_btn"> HOME </div>
+</a>
+
+</body>
+</html>
